@@ -139,3 +139,55 @@ Find out more about deployment here:
 Copying build files to Google Cloud Storage...
 bash: gsutil: command not found
 Deployment completed successfully.
+Starting deployment script...
+Changes detected, staging changes...
+warning: in the working copy of 'log.txt', LF will be replaced by CRLF the next time Git touches it
+Committing changes...
+[main 170780c] Automated commit
+ 1 file changed, 53 insertions(+)
+Pushing changes to main branch...
+fatal: unable to access 'https://github.com/ruthie-devops/devops_mbj_frontend/': SSL peer certificate or SSH remote key was not OK
+Installing dependencies...
+
+up to date, audited 1479 packages in 4s
+
+261 packages are looking for funding
+  run `npm fund` for details
+
+18 vulnerabilities (3 low, 3 moderate, 12 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+Building the app...
+
+> frontend@1.0.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  45.52 kB  build\static\js\main.95dc7b61.js
+  294 B     build\static\css\main.ea0461c9.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+Copying build files to Google Cloud Storage...
+Deployment completed successfully.
